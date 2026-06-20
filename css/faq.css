@@ -1,0 +1,88 @@
+#container {
+    width: 60%;
+    margin: 150px auto;
+    overflow: auto;
+}
+
+.faq li {
+    padding: 20px;
+}
+
+.faq li.q {
+    background-color: #011c29;
+    font-weight: bold;
+    font-size: 120%;
+    border: 1px solid #a57d4b;
+    cursor: pointer !important;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.faq li.a {
+    background-color: var(--secondary);
+    display: none;
+    color: #fff;
+}
+
+.faq li.q i {
+    float: right;
+    transition: transform 0.3s ease-in-out;
+}
+
+.faq li .q.rotate i::before {
+    content: "\f068";
+}
+
+.faq li .q i::before {
+    content: "\f067";
+}
+
+.wrd-spc {
+    word-spacing: 13px;
+    width: 60%;
+    text-align: left;
+    margin-top: 22px;
+}
+
+/* faq-accordion */
+
+.faq-ctnr {
+    margin: 0;
+    padding: 1rem;
+    max-width: 1300px;
+    margin: 30px auto;
+    background-color: #011c29;
+    width: 100%;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+.faq-ctnr-box {
+    display: flex;
+    /* flex-wrap: wrap;*/
+    width: 100%;
+    padding: 4rem;
+}
+
+.faq-ctnr-box .clm1 {
+    flex-shrink: 0;
+    /* shrinks to 0 to apply 70% width*/
+    flex-basis: 30%;
+    /* sets initial width to 70%*/
+}
+
+.faq-ctnr-box .clm1 h1 {
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.faq-ctnr-box .box {
+    padding: 10px;
+    margin: 1rem;
+}
+
+.faq-ctnr-box .clm2 {
+    flex: 2 1 70%;
+}

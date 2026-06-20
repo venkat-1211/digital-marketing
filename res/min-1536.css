@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1536px) {
+    .hero-icons::before {
+        content: "";
+        position: absolute;
+        width: 5rem;
+        height: 1.5px;
+        background: var(--secondary);
+        transform: rotate(90deg);
+        right: 7.6%;
+        bottom: 45%;
+        margin: 1rem 0rem 1rem 1rem;
+    }
+    .hero-icons::after {
+        content: "";
+        position: absolute;
+        width: 5rem;
+        height: 1.5px;
+        background: var(--secondary);
+        transform: rotate(90deg);
+        right: 7.7%;
+        bottom: 75%;
+        margin: 1rem 0rem 1rem 1rem;
+    }
+    .blog-ctnr {
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem auto;
+        gap: 4rem;
+    }
+    .blg-cards {
+        flex: 1 auto;
+        max-width: 325px;
+        padding: 1rem;
+        margin: 1rem;
+        background-color: #fff;
+        border: 1px solid var(--primary);
+    }
+    .blg-cards img {
+        max-width: 325px;
+        border-right: 18px solid var(--primary);
+    }
+    .traffic-dr-packs .fullwth-img-txt {
+        background-color: var(--primary-lit);
+        padding: 5rem;
+        max-width: 47%;
+        height: 500px;
+        position: absolute;
+        right: 8%;
+    }
+    header ul {
+        list-style: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2.5rem;
+    }
+    .combo-packs .fullwth-img-txt {
+        background-color: var(--primary);
+        padding: 5rem;
+        max-width: 47%;
+        height: 500px;
+        position: absolute;
+        right: 8% !important;
+    }
+    .fullwth-img-txt {
+        background-color: var(--primary-lit);
+        padding: 5rem;
+        max-width: 47%;
+        height: 500px;
+        position: absolute;
+        right: 8%;
+    }
+    .about .img-img::before {
+        content: "";
+        position: absolute;
+        width: 37%;
+        height: 39%;
+        border: 3px solid var(--primary);
+        top: 93%;
+        left: 52%;
+        z-index: -1;
+    }
+}

@@ -1,0 +1,33 @@
+.admin-nav-ctnr {
+    background-color: var(--primary-lit);
+    padding: 3rem;
+    margin-left: 1rem;
+    height: 100vh;
+    color: var(--primary);
+}
+
+.admin-nav-ctnr ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-nav-ctnr ul li {
+    padding: 1rem 0rem;
+}
+
+.admin-nav-ctnr ul li a {
+    color: var(--primary);
+}
+
+.admin-nav-ctnr ul li i {
+    color: var(--primary);
+    margin-right: 1rem;
+}
+
+.admin-nav-ctnr ul li a:hover {
+    color: var(--white);
+}
+
+.admin-nav-ctnr ul li:hover {
+    color: var(--white);
+}

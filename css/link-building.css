@@ -1,0 +1,361 @@
+.page-head-ctnr {
+    background-color: var(--primary);
+}
+
+.page-head {
+    max-width: 85rem;
+    margin: 0 auto;
+    width: clamp(85rem, 60vw, 85rem);
+    padding: 4rem;
+    width: 100%;
+}
+
+.lnk-bld .grid-ctnr {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.link-building .cta-form h4 {
+    width: 80%;
+}
+
+/* SVG white Start*/
+
+.link-building .svg-bar {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 50% !important;
+}
+
+.arrows-crown_dashed-line {
+    height: 0;
+    border-bottom: 1px dashed #f7f5ef;
+    flex: 1;
+    margin-left: -.125rem;
+    margin-right: -.125rem;
+}
+
+.arrows-crown_wrap {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.arrows-crown_arrow {
+    width: 1.9375rem;
+    flex: none;
+    display: flex;
+}
+
+.arrows-crown_dashed-line-wrap {
+    flex-direction: column;
+    flex: 1;
+    margin-left: .375rem;
+    margin-right: .375rem;
+    display: flex;
+    overflow: hidden;
+}
+
+.arrows-crown_crown {
+    width: 1rem;
+    flex: none;
+    margin-left: .375rem;
+    margin-right: .375rem;
+    color: #fff;
+}
+
+.w-embed:before,
+.w-embed:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table;
+}
+
+.arrows-crown_dashed-line-wrap {
+    flex-direction: column;
+    flex: 1;
+    margin-left: .375rem;
+    margin-right: .375rem;
+    display: flex;
+    overflow: hidden;
+}
+
+.arrows-crown_arrow {
+    width: 1.9375rem;
+    flex: none;
+    display: flex;
+    color: #fff;
+}
+
+.arrows-crown_dashed-line-wrap {
+    flex-direction: column;
+    flex: 1;
+    margin-left: .375rem;
+    margin-right: .375rem;
+    display: flex;
+    overflow: hidden;
+    color: #fff;
+}
+
+/* SVG White End*/
+
+/* SVG Blue Start*/
+
+.svg-bar {
+    margin: 0rem auto;
+    padding: 1rem;
+    width: 50%;
+}
+
+.arrows-crown_dashed-line-blue {
+    height: 0;
+    border-bottom: 1px dashed var(--primary);
+    flex: 1;
+    margin-left: -.125rem;
+    margin-right: -.125rem;
+}
+
+.arrows-crown_wrap {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.arrows-crown_arrow {
+    width: 1.9375rem;
+    flex: none;
+    display: flex;
+}
+
+.arrows-crown_dashed-line-wrap {
+    flex-direction: column;
+    flex: 1;
+    margin-left: .375rem;
+    margin-right: .375rem;
+    display: flex;
+    overflow: hidden;
+}
+
+.arrows-crown_crown-blue {
+    width: 1rem;
+    flex: none;
+    margin-left: .375rem;
+    margin-right: .375rem;
+    color: var(--primary);
+}
+
+.w-embed:before,
+.w-embed:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table;
+}
+
+.arrows-crown_dashed-line-wrap {
+    flex-direction: column;
+    flex: 1;
+    margin-left: .375rem;
+    margin-right: .375rem;
+    display: flex;
+    overflow: hidden;
+}
+
+.arrows-crown_arrow-blue {
+    width: 1.9375rem;
+    flex: none;
+    display: flex;
+    color: var(--primary);
+}
+
+.arrows-crown_dashed-line-wrap-blue {
+    flex-direction: column;
+    flex: 1;
+    margin-left: .375rem;
+    margin-right: .375rem;
+    display: flex;
+    overflow: hidden;
+    color: var(--primary);
+}
+
+/* SVG blue End*/
+
+.page-head h2 {
+    color: var(--white);
+    max-width: 50ch;
+    margin: auto;
+}
+
+.baner-list {
+    margin: 25px auto;
+}
+
+.baner-list li {
+    color: #fff;
+    font-size: 20px;
+    margin: 5px 0px;
+    font-weight: 600;
+}
+
+.baner-list li:before {
+    content: "\f0e3";
+    font-weight: bold;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.page-head p {
+    color: var(--white);
+    max-width: 100ch;
+    margin: auto;
+    text-align: center;
+}
+
+.txt-img-box {
+    display: flex;
+    gap: 2rem;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.txt-img-box .txt-txt {
+    flex: auto;
+}
+
+.link-building .txt-img-box .img-img {
+    position: relative;
+    flex: auto;
+    top: -50px;
+}
+
+.img-img::before {
+    content: "";
+    position: absolute;
+    width: 88%;
+    height: 84%;
+    border: 3px solid var(--primary);
+    top: 29px;
+    left: 9px;
+    z-index: -1;
+}
+
+.img-img img {
+    max-width: 530px;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.link-building .grid-ctnr .subheading {
+    margin-bottom: 20px !important;
+}
+
+.link-building .cta-bg {
+    background-color: var(--primary-lit);
+    margin-bottom: -50px;
+}
+
+.link-building .lnk-bld-cta-ctnr {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 390px;
+    position: relative;
+}
+
+.link-building .cta-img img {
+    width: 500px;
+    height: 390px;
+    position: relative;
+}
+
+.link-building .cta-img {
+    flex: 1 1 33%;
+}
+
+.link-building .page-head-ctnr {
+    background-color: var(--primary);
+    background-image: linear-gradient(to top, rgb(1 28 41 / 67%), rgba(1, 28, 41, 1) 95%), url(https://images.squarespace-cdn.com/content/v1/5803bc249de4bb01bc022766/1557143223250-KJY0JUZ95F0X23IAYYUP/How+to+connect+in+a+coworking+environment.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.link-building .page-head {
+    padding-top: 8rem;
+}
+
+.link-building .subheading {
+    font-size: 1.3rem !important;
+}
+
+.link-building .cta-form {
+    margin: 1.5rem auto;
+    flex: 2 1 63%;
+    padding: 2rem;
+    background-image: none;
+}
+
+.link-building .cta-img img {
+    width: 500px;
+    height: 390px;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+
+.link-building .cta-form h3 {
+    margin: 1.5rem 0;
+}
+
+.link-building .cta-form form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -14px !important;
+    gap: 0;
+    width: auto;
+    margin: unset;
+    position: relative;
+    top: 0;
+}
+
+.link-building .cta-form form input {
+    outline: none;
+}
+
+.link-building .cta-form form input::placeholder {
+    color: var(--primary);
+}
+
+.link-building .cta-form form input,
+.cta-form form button {
+    padding: 15px;
+    margin: 1rem;
+    background: transparent;
+    border: 1px solid var(--primary);
+    width: 18%;
+    color: var(--primary);
+}
+
+.link-building .cta-form form button {
+    background-color: var(--primary);
+    color: var(--white);
+    cursor: pointer;
+    text-transform: uppercase;
+    flex: 0 auto;
+    max-width: 210px;
+    width: 100%;
+}

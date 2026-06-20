@@ -1,0 +1,307 @@
+.combo-packs .page-head-ctnr {
+    background-color: var(--primary);
+    background-image: linear-gradient(to top, rgba(1, 28, 41, 0.712), rgba(1, 28, 41, 1) 95%), url(../images/combo-pack-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+}
+
+.combo-packs .page-head {
+    padding-top: 4.5rem;
+}
+
+.combo-packs .cta-ctnr-box .cta-txt {
+    flex: 2 1 650px;
+}
+
+.combo-packs .enterprise {
+    background-color: var(--secondary);
+    padding: 3rem 0;
+    background-image: none;
+    margin-bottom: -1px;
+}
+
+.combo-packs .cta-form h3 {
+    font-size: 1.8rem;
+}
+
+.combo-packs .lcl-seo .txt-img-box .img-img {
+    position: relative;
+    flex: 1;
+    margin-top: 1rem;
+}
+
+.combo-packs .lcl-seo .txt-img-box .img-img::before {
+    content: "";
+    position: absolute;
+    width: 93%;
+    height: 79%;
+    border: 3px solid var(--primary);
+    top: 27px;
+    left: 10px;
+    z-index: -1;
+}
+
+.combo-packs .lcl-seo .txt-img-box {
+    display: flex;
+    gap: 5rem;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+.combo-packs .lcl-seo {
+    margin-bottom: 6rem;
+    margin-top: -1rem;
+}
+
+.combo-packs .subheading::before {
+    position: absolute;
+    content: "";
+    width: 61px;
+    height: 5px;
+    left: -47px;
+    top: 55%;
+    transform: translate(-50%);
+    background: var(--secondary);
+}
+
+.combo-packs .subheading {
+    color: var(--white) !important;
+}
+
+.combo-packs h2.demo-title {
+    text-transform: uppercase;
+    padding-top: 4rem;
+}
+
+.combo-packs .pricing-table-head-top {
+    margin-top: 5rem !important;
+    margin-bottom: 4rem !important;
+    background: var(--secondary);
+}
+
+.combo-packs .pricing-table-head-top {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.combo-packs .fullwth-img-txt {
+    background-color: var(--primary);
+    padding: 5rem;
+    max-width: 38%;
+    height: 500px;
+    position: absolute;
+    right: 16%;
+}
+
+.combo-packs .fullwth-img-txt h2 {
+    color: var(--secondary);
+}
+
+.combo-packs .fullwth-img-txt li {
+    color: var(--white);
+}
+
+.combo-packs .fullwth-img-txt li i {
+    color: var(--secondary);
+}
+
+.combo-packs .pricing-table-head {
+    margin-top: 4rem !important;
+    margin-bottom: 0rem !important;
+}
+
+.combo-packs .pricing-table-head {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.combo-packs .pricing-table {
+    margin-bottom: 7rem;
+}
+
+.combo-packs .fullwth-img-img img {
+    max-width: 75%;
+    height: auto;
+}
+
+.combo-packs .cta-ctnr {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem 1rem;
+    gap: 3rem;
+}
+
+.combo-packs .pricing-table .ptable-header {
+    margin: 0px 10px;
+    padding: 30px 0 45px 0;
+    width: auto;
+    background: var(--primary);
+}
+
+.combo-packs .pricing-table {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 1300px !important;
+    background: #ffffff;
+}
+
+.combo-packs .cta-ctnr-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.combo-packs .cta-form form button {
+    padding: 15px;
+    margin: 1rem;
+    background: transparent;
+    border: 1px solid var(--primary);
+    width: auto;
+}
+
+.combo-packs .how-it-wrks h2 {
+    text-align: right;
+    line-height: 1.5;
+    float: right;
+    margin-bottom: 14px;
+    width: 100%;
+    max-width: 20vw;
+    border-top: 9px solid var(--primary);
+    top: 10px;
+    position: relative;
+    color: var(--secondary);
+    padding-top: 20px;
+    font-size: clamp(2rem, 4vw, 2rem);
+}
+
+.combo-packs .faq-ctnr {
+    background-color: var(--primary);
+    border-right: 30px solid var(--secondary);
+    margin: 0rem auto 0rem auto;
+    padding: 5rem 5rem;
+}
+
+.combo-packs .faq-ctnr p {
+    color: var(--primary-lit);
+}
+
+.combo-packs .collapsible-item-label {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    cursor: pointer;
+    /* background: var(--primary); */
+    color: #fff;
+    border-top: 2px dashed #a57d4b;
+}
+
+.combo-packs .cta-form {
+    flex: 1 1 550px;
+    height: 600px;
+    background-image: none;
+    background-color: var(--primary-lit);
+}
+
+.combo-packs .cta-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 85%;
+    margin: auto;
+    position: relative;
+    top: 130px;
+}
+
+.combo-packs .cta-form form input,
+.combo-packs .cta-form form textarea {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.combo-packs .cta-form form input::placeholder,
+.combo-packs .cta-form form textarea {
+    color: var(--primary) !important;
+}
+
+.combo-packs .cta-form form button {
+    padding: 15px;
+    margin: 0.5rem;
+    background: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--white);
+}
+
+.combo-packs .cta-form form textarea {
+    margin: 0.5rem;
+}
+
+.combo-packs .cta-form form textarea::placeholder {
+    color: var(--primary) !important;
+}
+
+.combo-packs .cta-form form input,
+.combo-packs .cta-form form button {
+    margin: 0.5rem;
+}
+
+.combo-packs .cta-form h3 {
+    margin: 0.5rem 0;
+}
+
+.combo-packs .enterprise {
+    background-image: linear-gradient(rgb(1 28 41 / 86%), rgb(1 28 41 / 86%) 86%), url(../images/combo-pack-bg.jpg);
+    padding: 3rem 0;
+    margin-bottom: -1px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.combo-packs .pack-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.combo-packs .pack-highlights ul {
+    padding: 1rem;
+    width: 45%;
+    text-indent: -20px;
+}
+
+.combo-packs .pack-highlights ul li {
+    padding: 0.3rem;
+    color: var(--primary);
+}
+
+.combo-packs .pack-highlights ul li i {
+    margin-right: 0.7rem;
+    color: var(--primary);
+}
+
+.combp

@@ -1,0 +1,51 @@
+.cross-ctnr {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url("../images/some-facts-that-will-change-your-mind.jpg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-color: #e2e2e2;
+    border-style: solid;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 110rem;
+    margin: auto;
+}
+
+.cross-ctnr-box {
+    width: 100% !important;
+    margin-left: calc(-4% / 2);
+    margin-right: calc(-4% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross {
+    width: 60% !important;
+    margin-top: 0px;
+    margin-bottom: 00px;
+    background-color: var(--primary);
+    padding: 5rem 3rem 5rem 6rem;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 80% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0%, 80% 100%, 0 100%);
+    height: 580px;
+    margin-right: auto;
+    /* padding-left: 6rem; */
+}
+
+.cross h2,
+.cross p {
+    width: 80%;
+}
+
+.cross ul li {
+    color: var(--white);
+    padding: 10px;
+}
+
+.cross ul li i {
+    margin-right: 15px;
+}

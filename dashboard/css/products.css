@@ -1,0 +1,64 @@
+.products-ctnr {
+    width: auto;
+    padding: 1rem;
+    margin: 0;
+}
+
+.products-ctnr table {
+    padding: 1rem;
+}
+
+.products-ctnr table thead th {
+    padding: 1rem;
+    border: 1px solid #333;
+}
+
+.products-ctnr table tbody {
+    padding: 1rem;
+    border: 1px solid var(--primary);
+}
+
+.products-ctnr table tbody td {
+    padding: 1rem;
+    border: 1px solid var(--primary);
+    text-align: center;
+}
+
+.dash-content .products-ctnr h3 {
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.product-desc {
+    font-size: 0.8rem;
+}
+
+select {
+    border: 1px solid #333;
+    outline: none;
+    padding: 2px 5px;
+}
+
+.order-update form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.order-update form .dash-button {
+    background-color: var(--primary);
+    padding: 5px 15px;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+.order-update form select .hover option:hover {
+    background-color: var(--primary) inset;
+}

@@ -1,0 +1,231 @@
+.how-it.ctnr {
+    max-width: 1200px;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem auto;
+    flex-direction: row;
+}
+
+.enterprise-seo .page-head-ctnr {
+    background-color: var(--primary);
+    background-image: linear-gradient(to top, rgb(1 28 41 / 67%), rgba(1, 28, 41, 1) 95%), url(../images/enterprise-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+}
+
+.enterprise-seo .page-head {
+    padding-top: 4rem;
+}
+
+.enterprise-seo .cta-ctnr-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.enterprise-seo .faq-ctnr {
+    background-color: var(--secondary);
+    border-right: 30px solid var(--primary);
+    margin: 5rem auto 7rem auto;
+    padding: 5rem 5rem;
+}
+
+.enterprise-seo .how-it-wrks h2 {
+    text-align: right;
+    line-height: 1.5;
+    float: right;
+    margin-bottom: 14px;
+    width: 100%;
+    max-width: 19vw;
+    border-top: 9px solid var(--primary);
+    top: 10px;
+    position: relative;
+    color: var(--secondary);
+    padding-top: 1rem;
+}
+
+.enterprise-seo .cta-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    width: auto;
+    margin: auto;
+    position: relative;
+    top: 55px;
+}
+
+.enterprise-seo .cta-form form input,
+.cta-form form textarea {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+    color: var(--white);
+    font-family: inherit;
+    margin: 0.5rem;
+}
+
+.enterprise-seo .cta-form form button {
+    padding: 15px;
+    background-color: var(--secondary);
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    color: var(--white);
+    max-width: 100%;
+    margin: 0.5rem;
+}
+
+.enterprise-seo .subheading {
+    font-size: 1.2rem !important;
+    color: var(--white) !important;
+}
+
+.enterprise-seo .cta-form form input {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+    color: var(--white);
+}
+
+.enterprise-seo .cta-form form input::placeholder {
+    color: var(--white);
+}
+
+.enterprise-seo .cta-form {
+    margin: 1.5rem auto;
+    flex: 1 1 500px;
+    padding: 2rem;
+    background-image: none !important;
+}
+
+.enterprise-seo .tabs-ctnr {
+    max-width: 1300px;
+    margin: 8rem auto;
+    /* width: clamp(90rem, 60vw, 90rem); */
+    width: 100%;
+}
+
+.how-it .how-it-wrks {
+    background-color: #ffa8a8;
+}
+
+.how-it .how-it-desc {
+    background-color: #96fcb4;
+}
+
+.how-it-wrks h2 {
+    text-align: right;
+    line-height: 2;
+    float: right;
+    margin-bottom: 14px;
+    width: 100%;
+    max-width: 14vw;
+    border-top: 9px solid var(--primary);
+    top: 10px;
+    position: relative;
+    color: var(--secondary);
+}
+
+.how-it-ctnr {
+    display: flex;
+    max-width: 1300px;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem auto;
+    justify-content: space-around;
+    height: 300px;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.how-it-wrks,
+.test-flx-1 {
+    margin: 1rem;
+    padding: 1rem;
+    flex-grow: 3;
+    max-width: 35%;
+}
+
+.how-it-desc,
+.test-flx-2 {
+    margin: 1rem;
+    padding: 1rem;
+    flex-grow: 5;
+    max-width: 65%;
+}
+
+.fullwth-img-box {
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    margin: 2rem auto;
+}
+
+.fullwth-img-img img {
+    max-width: 80%;
+    height: auto;
+}
+
+.fullwth-img-txt {
+    background-color: var(--primary-lit);
+    padding: 5rem;
+    max-width: 38%;
+    height: 500px;
+    position: absolute;
+    right: 16%;
+}
+
+.fullwth-img-txt ul li {
+    padding: 0.3rem;
+    padding-right: 0px;
+    text-indent: -1em;
+    padding-left: 2em;
+}
+
+.fullwth-img-txt ul li i {
+    margin-right: 10px;
+    color: var(--primary);
+}
+
+.enterprise-seo .enterprise {
+    background-color: var(--primary-lit);
+    padding: 3rem 0;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(1, 28, 41, 1) 57%), url(../images/enterprise-cta.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    /* height: auto; */
+    /* width: auto; */
+    margin-bottom: -1px;
+}
+
+.enterprise-seo .cta-ctnr-box .cta-txt {
+    flex: 2 1 600px;
+}
+
+.enterprise-seo .cta-form form button {
+    padding: 15px;
+    margin: 0.6rem;
+    background: var(--secondary);
+    border: 1px solid var(--primary);
+    width: auto;
+    cursor: pointer;
+}
+
+.enterprise-seo .cta-form h3 {
+    margin-bottom: 2rem;
+}
+
+.enterprise-seo .cta-txt h2 {
+    white-space: pre-line;
+}

@@ -1,0 +1,75 @@
+.link-subscribtion {
+    background-color: var(--secondary);
+    padding: 5rem 2rem;
+    margin: 3rem;
+    max-width: 1300px;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.link-subscribtion h2,
+.link-subscribtion p {
+    color: var(--white);
+}
+
+.link-subscribtion .txt {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.link-subscribtion-input {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.link-subscribtion input {
+    padding: 0.8rem 0.8rem;
+}
+
+.link-subscribtion input,
+.link-subscribtion .btn-blu {
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    outline: none;
+}
+
+.link-subscribtion input,
+.link-subscribtion .btn-blu {
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    outline: none;
+}
+
+.btn-blu {
+    position: relative;
+    background-color: var(--primary);
+    color: var(--white);
+    position: relative;
+    border: 0;
+    outline: 0;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .25s ease;
+    text-transform: uppercase;
+}
+
+.btn-blu::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    transform: translate(-5px, -5px);
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    transition: .25s ease;
+    z-index: 1;
+}

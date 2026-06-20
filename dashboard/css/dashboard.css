@@ -1,0 +1,114 @@
+.signup .ctnr {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem auto;
+    padding: 2rem;
+}
+
+.signup .ctnr .info {
+    flex: 1 1 500px;
+}
+
+.signup .ctnr .info img {
+    width: 500px;
+    filter: saturate(0.5);
+}
+
+.signup .ctnr .form {
+    flex: 1 1 500px;
+}
+
+.signup .ctnr .form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.signup .ctnr .form form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.signup .ctnr .form h2 {
+    margin-left: 1rem;
+}
+
+.signup .ctnr .form form input[type="submit"] {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 0.8rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.signup .ctnr .form p {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.signup .ctnr .form form input {
+    padding: 0.5rem;
+    margin: 0.8rem;
+    border: 1px solid var(--primary);
+    outline: none;
+    width: 80%;
+    font-family: inherit;
+}
+
+.signup .ctnr .form form input[type="submit"] {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.dash-content .instructions form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-family: inherit;
+}
+
+.dash-content .instructions textarea {
+    padding: 10px 20px;
+    margin: 0.6rem;
+    font-family: inherit;
+    outline: none;
+    border: 1px solid var(--primary);
+}
+
+.dash-content .instructions input {
+    padding: 10px 20px;
+    margin: 0.6rem;
+    font-family: inherit;
+    outline: none;
+    border: 1px solid var(--primary);
+}
+
+.dash-content .instructions form input[type="submit"] {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 0.8rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.dash-content .instructions h3 {
+    margin: 1rem 0 0 1rem;
+}
+
+.dash-content .instructions p {
+    margin: 1rem 0rem 1rem 1rem;
+}

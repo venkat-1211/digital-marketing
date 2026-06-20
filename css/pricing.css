@@ -1,0 +1,370 @@
+h2.demo-title {
+    text-align: center;
+    font-weight: 600;
+    color: var(--primary);
+    letter-spacing: 2px;
+}
+
+h1.demo-title a {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.pricing-table {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.pricing-table .ptable-item {
+    width: 33%;
+    padding: 0 15px;
+    margin: 0 auto;
+    /* margin-bottom: 30px; */
+}
+
+@media (max-width: 992px) {
+    .pricing-table .ptable-item {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 768px) {
+    .pricing-table .ptable-item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .pricing-table .ptable-item {
+        width: 100%;
+    }
+}
+
+.pricing-table .ptable-single {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pricing-table .ptable-header,
+.pricing-table .ptable-body,
+.pricing-table .ptable-footer {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.pricing-table .ptable-status,
+.pricing-table .ptable-title,
+.pricing-table .ptable-price,
+.pricing-table .ptable-description,
+.pricing-table .ptable-action {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.pricing-table .ptable-single {
+    background: #f6f8fa;
+}
+
+.pricing-table .ptable-single {
+    /* box-shadow: 0 0 10px #999999; */
+    border-left: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
+}
+
+.pricing-table .ptable-single:hover {
+    /* box-shadow: 0 0 10px #999999; */
+    border-left: 1px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
+}
+
+.pricing-table .ptable-header {
+    margin: 0 10px;
+    padding: 30px 0 45px 0;
+    width: auto;
+    background: var(--primary);
+}
+
+.pricing-table .ptable-header::before,
+.pricing-table .ptable-header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #f6f8fa;
+}
+
+.pricing-table .ptable-header::before {
+    right: 50%;
+    border-right: 250px solid transparent;
+}
+
+.pricing-table .ptable-header::after {
+    left: 50%;
+    border-left: 250px solid transparent;
+}
+
+.pricing-table .ptable-item.featured-item .ptable-header {
+    background: var(--secondary);
+}
+
+.pricing-table .ptable-status {
+    margin-top: -30px;
+}
+
+.pricing-table .ptable-status span {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    padding: 5px 0;
+    text-align: center;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    background: var(--primary);
+}
+
+.pricing-table .ptable-status span::before,
+.pricing-table .ptable-status span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid var(--secondary);
+}
+
+.pricing-table .ptable-status span::before {
+    right: 50%;
+    border-right: 25px solid transparent;
+}
+
+.pricing-table .ptable-status span::after {
+    left: 50%;
+    border-left: 26px solid transparent;
+}
+
+.pricing-table .ptable-title h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.pricing-table .ptable-price h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.pricing-table .ptable-price h2 small {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 16px;
+    margin-left: -15px;
+}
+
+.pricing-table .ptable-price h2 span {
+    margin-left: 3px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.pricing-table .ptable-body {
+    padding: 20px 0;
+}
+
+.pricing-table .ptable-description ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing-table .ptable-description ul li i {
+    margin-right: 20px;
+}
+
+.pricing-table .ptable-description ul li {
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 0px;
+    border-bottom: 1px solid #dedede;
+}
+
+.pricing-table .ptable-description ul li:last-child {
+    border: none;
+}
+
+.pricing-table .ptable-footer {
+    padding-bottom: 30px;
+}
+
+.pricing-table .ptable-action a {
+    display: inline-block;
+    padding: 15px 40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: var(--primary);
+}
+
+.pricing-table .ptable-action a:hover {
+    color: var(--primary);
+    background: var(--secondary);
+}
+
+.pricing-table .ptable-item.featured-item .ptable-action a {
+    color: var(--primary);
+    background: var(--secondary);
+}
+
+.pricing-table .ptable-item.featured-item .ptable-action a:hover {
+    color: var(--primary);
+    background: var(--secondary);
+}
+
+.pricing-table .ptable-body .ptable-description .accordian-body table tr {
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-bottom: 1px solid #dedede;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.qty-btn {
+    padding: 2px 8px;
+    margin: 0 5px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.addon-qty {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.addons .qty-input {
+    width: 20%;
+    text-align: center;
+}
+
+.addons td:first-child {
+    width: 40%;
+    text-align: left;
+}
+
+.addons td:nth-child(2) {
+    width: 10%;
+    text-align: left;
+}
+
+.addons td:last-child {
+    width: 40%;
+    text-align: right;
+}
+
+.ptable-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#extra-list1,
+#extra-list2,
+#extra-list3 {
+    text-align: left;
+    display: none;
+}
+
+.ptable-description ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ptable-description li {
+    background: #f2f2f2;
+    /*margin-bottom: 10px;*/
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.accordian-head {
+    background-color: #011c29;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordian-head i {
+    margin-right: 10px;
+}
+
+.accordian-body {
+    display: none;
+    background: #fff;
+    padding: 10px 20px;
+}
+
+.accordian-body table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.accordian-body td {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    text-align: left;
+}
+
+.active .accordian-body {
+    display: block;
+}
+
+.accordian-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+}
+
+.accordian-head i.fa-chevron-down,
+.accordian-head i.fa-chevron-up {
+    transition: transform 0.3s ease;
+}
+
+.accordian-head i.fa-chevron-up {
+    transform: rotate(0deg);
+}

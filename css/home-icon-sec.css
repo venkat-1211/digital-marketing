@@ -1,0 +1,37 @@
+.ctnr2 {
+    max-width: 1300px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.two-clm-inner {
+    display: flex;
+    /* flex-wrap: wrap; */
+    color: var(--primary);
+}
+
+.two-clm-icon {
+    padding: 2rem;
+}
+
+.two-clm-box {
+    width: 100%;
+}
+
+.two-clm-box {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.two-clm-inner i {
+    font-size: 5rem;
+    padding: 3rem;
+    color: var(--primary);
+}
+
+.two-clm {
+    width: 50%;
+    float: left;
+}

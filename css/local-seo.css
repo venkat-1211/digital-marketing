@@ -1,0 +1,230 @@
+button.cta-on-lit {
+    position: relative;
+    background-color: #a57d4b;
+    border: 0;
+    outline: 0;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .25s ease;
+    text-transform: uppercase;
+    color: #011c29;
+    font-weight: 700;
+    font-family: inherit !important;
+    margin: 2.5rem 0.5rem;
+}
+
+.local-seo .cta-ctnr {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem 1rem;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.local-seo .cta-ctnr-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.local-seo .subheading {
+    font-size: 1.3rem !important;
+}
+
+.local-seo .page-head {
+    padding-top: 6rem;
+}
+
+.local-seo .page-head-ctnr {
+    background-color: var(--primary);
+    background-image: linear-gradient(to top, rgba(1, 28, 41, 0.486), rgba(1, 28, 41, 1) 95%), url(../images/local-seo-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+}
+
+.local-seo .cta-form form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    width: 82%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+.local-seo .cta-form form h3 {
+    margin-bottom: 1.5rem;
+}
+
+.pricing-table-head {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.local-seo .cta-form {
+    flex: 1 1 390px;
+    height: 600px;
+    background-image: linear-gradient(to bottom, rgb(1 28 41 / 45%), rgba(1, 28, 41, 1) 75%), url(../images/cta-lawyer.jpg);
+    background-size: cover;
+}
+
+.local-seo .cta-form form button {
+    background-color: var(--primary);
+    color: var(--white);
+    cursor: pointer;
+    text-transform: uppercase;
+    flex: 0 auto;
+    max-width: inherit;
+    width: 100%;
+    margin: 0.6rem;
+}
+
+.local-seo .cta-form form input,
+.cta-form form button {
+    padding: 15px;
+    margin: 0.6rem;
+    background: transparent;
+    border: 1px solid var(--primary);
+}
+
+.local-seo .cta-form form button {
+    padding: 15px;
+    background-color: var(--secondary);
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.local-seo .cta-form form input::placeholder,
+.local-seo .cta-form form textarea::placeholder {
+    padding: 10px;
+    background-color: transparent;
+    color: var(--white);
+    font-family: inherit;
+}
+
+.local-seo .svg-bar {
+    width: 70% !important;
+}
+
+.local-seo .cta-form {
+    margin: 1.5rem auto;
+    flex: 1 1 600px;
+    padding: 2rem;
+}
+
+.local-seo .cta-txt {
+    flex: 2 1 600px;
+}
+
+.local-seo .arrows-crown_wrap {
+    width: 70% !important;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.local-seo .cta-form form input {
+    padding: 10px !important;
+    background-color: transparent !important;
+    border: 1px solid var(--secondary) !important;
+    color: var(--white) !important;
+}
+
+.cta-on-lit::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    transform: translate(-7px, -7px);
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--primary);
+    transition: .25s ease;
+    z-index: -1;
+}
+
+.btn-drk::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    transform: translate(-5px, -5px);
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--primary);
+    transition: .25s ease;
+    z-index: -1;
+}
+
+.lcl-seo .grid-ctnr {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lcl-seo .txt-img-box {
+    display: flex;
+    gap: 2rem;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+.lcl-seo .txt-img-box .txt-txt {
+    flex: 1;
+}
+
+.lcl-seo .txt-img-box .img-img {
+    position: relative;
+    flex: 1;
+}
+
+.lcl-seo .txt-img-box .img-img::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 71%;
+    border: 3px solid var(--primary);
+    top: 29px;
+    left: 10px;
+    z-index: -1;
+}
+
+.lcl-seo .txt-img-box .img-img img {
+    max-width: 575px;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.local-seo .grid-ctnr .subheading {
+    margin-bottom: 1px !important;
+    font-size: 1.2rem !important;
+}
+
+.local-seo .lcl-seo .txt-img-box .img-img {
+    position: relative;
+    flex: 1;
+    top: -35px;
+}

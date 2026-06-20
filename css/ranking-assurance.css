@@ -1,0 +1,332 @@
+.ranking-assurance .how-it-wrks h2 {
+    text-align: right;
+    line-height: normal;
+    float: right;
+    margin-bottom: 14px;
+    width: 100%;
+    max-width: none;
+    border-top: 9px solid var(--primary);
+    top: 10px;
+    position: relative;
+    color: var(--secondary);
+    padding-top: 10px;
+}
+
+.ranking-assurance .page-head-ctnr {
+    background-color: var(--primary);
+    background-image: linear-gradient(to top, rgb(1 28 41 / 67%), rgba(1, 28, 41, 1) 95%), url(../images/meeting.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+}
+
+.ranking-assurance .page-head {
+    padding-top: 4.5rem;
+}
+
+.rankign-assurance {
+    background-color: var(--primary-lit);
+    padding: 3rem 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    /* height: auto; */
+    /* width: auto; */
+    margin-bottom: -1px;
+}
+
+#rankign-assurance-img {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.ranking-assurance .cta-ctnr {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem 1rem;
+    gap: 3rem;
+}
+
+.ranking-assurance .gurantee {
+    max-width: 1300px;
+    margin: 0rem auto 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    gap: 2rem;
+}
+
+.ranking-assurance .txt-img-box {
+    display: flex;
+    gap: 2rem;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+.ranking-assurance .txt-img-box .img-img {
+    position: relative;
+    flex: 1;
+}
+
+.ranking-assurance .txt-img-box .txt-txt {
+    flex: 1;
+}
+
+.ranking-assurance .tab-img img {
+    max-width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.ranking-assurance .txt-img-box .img-img img {
+    max-width: 95%;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    /* width: 100%; */
+}
+
+.ranking-assurance .txt-img-box .img-img::before {
+    content: "";
+    position: absolute;
+    width: 93%;
+    height: 66%;
+    border: 3px solid var(--primary);
+    top: 29px;
+    left: 10px;
+    z-index: -1;
+}
+
+.ranking-assurance .pricing-table-ctnr {
+    margin: 2rem auto 6rem auto;
+}
+
+.ranking-assurance .pricing-table-ctnr .svg-bar {
+    margin: 1rem auto 3rem auto;
+    width: 50% !important;
+}
+
+.ranking-assurance .cta-ctnr-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    width: 100%;
+    flex: 1 1 400px;
+    margin: 3rem 0;
+}
+
+.ranking-assurance .cta-txt {
+    flex: 1 1 650px;
+}
+
+.ranking-assurance .cta-form {
+    flex: 1 1 550px;
+    height: 600px;
+    background-image: none;
+}
+
+.ranking-assurance .cta-form form input {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+    color: var(--white);
+}
+
+.ranking-assurance .cta-form form button {
+    padding: 15px;
+    background-color: var(--secondary);
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    color: var(--white);
+    max-width: 100%;
+}
+
+.ranking-assurance .cta-form form input::placeholder {
+    color: var(--white);
+}
+
+.ranking-assurance .cta-form {
+    height: auto;
+    background-color: var(--primary);
+    padding: 5rem 0;
+}
+
+.ranking-assurance .cta-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 35px;
+}
+
+.ranking-assurance .cta-form form input,
+.ranking-assurance .cta-form form button {
+    margin: 0.5rem;
+}
+
+.cta-form form input,
+.cta-form form button {
+    padding: 10px;
+}
+
+.cta-form form button {
+    padding: 10px;
+    background-color: var(--secondary);
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.cta-form form input:focus,
+.cta-form form textarea:focus {
+    outline: none;
+}
+
+.cta-form form input,
+.cta-form form textarea {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+    color: var(--white);
+    font-family: inherit;
+}
+
+.cta-form form input::placeholder,
+.cta-form form textarea::placeholder {
+    color: var(--white);
+}
+
+.subheading {
+    color: var(--primary);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 110rem;
+    margin: 2rem auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item img {
+    height: 200px;
+    width: 200px;
+}
+
+.flex-item {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #333;
+    background-color: #f8b8b8;
+    flex: 0 2 auto;
+}
+
+#rankign-assurance .faq-ctnr {
+    background-color: var(--secondary);
+    border-right: 30px solid var(--primary);
+    margin: 5rem auto 7rem auto;
+    padding: 5rem;
+}
+
+.faq-ctnr input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.collapsible-accordion {
+    margin: 10px;
+    overflow: hidden;
+}
+
+.collapsible-item-label {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    cursor: pointer;
+    /* background: var(--primary); */
+    color: #fff;
+    border-top: 2px dashed var(--primary);
+}
+
+.collapsible-item-label::after {
+    content: "\2192";
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    transition: all 0.35s ease;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: -1rem;
+}
+
+.collapsible-item-content {
+    max-height: 0;
+    padding: 0 1em;
+    transition: all 0.35s ease;
+}
+
+input:checked+.collapsible-item-label::after {
+    transform: rotate(90deg);
+}
+
+input:checked~.collapsible-item-content {
+    max-height: 100vh;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.faq-content label {
+    padding: 1rem 0;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Merriweather', serif !important;
+}
+
+.faq-ctnr h2 {
+    padding: 1rem 0 1rem 0.5rem;
+}
+
+.faq-ctnr p {
+    color: var(--primary);
+}
+
+.ranking-assurance .tab-content {
+    padding: 130px 20px 60px 20px;
+    width: 100%;
+    min-height: 340px;
+    background-color: #a57d4b;
+}
+
+.ranking-assurance .cta-form form button {
+    padding: 15px;
+    margin: 1rem;
+    background: var(--secondary);
+    border: 1px solid var(--primary);
+    width: auto;
+}
+
+.ranking-assurance .cta-form h3 {
+    margin-bottom: 2rem;
+}

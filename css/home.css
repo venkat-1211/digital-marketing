@@ -1,0 +1,13 @@
+ .home .home-faq-ctnr,
+ .test-home {
+     margin: 0;
+     padding: 1rem;
+     max-width: 1300px;
+     margin: 30px auto;
+     background-color: var(--primary) !important;
+     width: 100%;
+ }
+
+ .home-faq-ctnr .subheading {
+     color: var(--white);
+ }

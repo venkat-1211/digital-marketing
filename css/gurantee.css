@@ -1,0 +1,22 @@
+.gurantee {
+    max-width: 1300px;
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.gurantee-label img {
+    width: 180px;
+    text-align: center;
+    margin: auto;
+}
+
+.gurantee-label {
+    flex: 1 2 280px;
+}
+
+.gurantee-txt {
+    flex: 4 1 900px;
+}

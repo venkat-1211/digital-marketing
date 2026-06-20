@@ -1,0 +1,6 @@
+.terms-privacy .page-head-ctnr {
+    background-color: var(--primary);
+    background-image: linear-gradient(to top, rgb(1 28 41 / 67%), rgba(1, 28, 41, 1) 95%), url(../images/office-terms.jpg);
+    height: 35vh;
+    background-position: bottom;
+}

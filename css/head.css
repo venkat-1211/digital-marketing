@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.header-bg {
+    background-color: var(--primary);
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: 2;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-lit) !important;
+    font-size: 16px;
+}
+
+header {
+    padding: 0 3rem;
+    background-color: var(--primary);
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: clamp(90rem, 90vw, 105rem);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+}
+
+#brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.secondary {
+    color: var(--secondary);
+}
+
+#brand a {
+    color: #fff;
+}
+
+.mainmenu ul.submenu {
+    height: auto;
+    width: auto;
+    background: var(--secondary);
+    position: absolute;
+    display: none;
+    z-index: 99;
+    padding: 20px 15px 25px 15px;
+    margin: 10px 0 20px -25px;
+    line-height: 0.5 !important;
+}
+
+.mainmenu li:hover ul.submenu {
+    display: block;
+}
+
+.mainmenu ul.submenu li {
+    display: inline;
+    width: 100%;
+    padding: 0px 0px 0px 1px;
+}
+
+.mainmenu ul.submenu li a {
+    color: var(--white);
+    padding: 10px 0px;
+    margin: 0px 0px;
+    display: block !important;
+    font-size: 1rem;
+    line-height: 0.5 !important;
+}
+
+.mainmenu ul.submenu li a:hover {
+    color: var(--primary);
+}
+
+.mainmenu li {
+    display: inline;
+    padding: 10px 0px;
+}
+
+header ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2.5rem;
+}
+
+header ul li {
+    padding: 5px;
+    margin-left: 0px;
+}
+
+header ul li a:hover {
+    color: var(--white);
+}
+
+#login,
+#signup {
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+#login {
+    border: 0px solid #e2e2e2;
+}
+
+#signup {
+    border: 0px solid var(--secondary);
+}
+
+#signup a,
+#login a {
+    color: var(--secondary);
+}
+
+#signup a:hover,
+#login a:hover {
+    color: var(--white);
+}
+
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    top: 100px;
+    background-color: var(--primary);
+    z-index: 1;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+
+.mobile-menu li {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    header nav {
+        display: none;
+    }
+    #hamburger-icon {
+        display: block;
+    }
+}

@@ -1,0 +1,258 @@
+.txt-heading {
+    margin: 20px 0px;
+    text-align: left;
+    background: var(--primary-lit);
+    padding: 5px 10px;
+    overflow: auto;
+}
+
+#shopping-cart .txt-heading {
+    color: var(--primary);
+    background-color: var(--primary-lit);
+    padding: 1rem 2rem 1rem 0.5rem;
+}
+
+.txt-heading-label {
+    display: inline-block;
+    color: var(--primary);
+    margin-left: 1rem;
+}
+
+#shopping-cart .txt-heading .txt-heading-label {
+    margin-top: 5px;
+    color: var(--primary);
+}
+
+.shopping-cart-table .cart-item-container {
+    width: 100%;
+    margin: 0.4rem;
+    padding-right: 2rem;
+}
+
+.btnAddAction {
+    padding: 3px 10px;
+    cursor: pointer;
+    border: #CCC 1px solid;
+    background: #f3f0f0;
+}
+
+.product-footer .float-rights {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 1rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+.dash-content .product-footer .float-rights input {
+    padding: 10px 20px;
+    margin: 0;
+    border: 1px solid var(--primary);
+}
+
+.product-footer .float-rights input[type="text"] {
+    color: #000000 !important;
+    background-color: #f3f0f0 !important;
+    display: none;
+}
+
+.product-footer .float-rights input[type="submit"] {
+    margin-left: 1rem;
+}
+
+.product-footer .float-rights input[type="text"]:focus {
+    color: #000000 !important;
+}
+
+.cart-item {
+    border-bottom: var(--primary) 1px solid;
+    padding: 10px;
+}
+
+.cart-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#product-grid {
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    gap: 1rem;
+    row-gap: 2rem;
+}
+
+.product-item {
+    border: none;
+    background-color: var(--primary-lit);
+    padding: 0rem;
+    margin: 1rem;
+    flex: 1 1 200px;
+}
+
+.product-item .product-footer .float-rights input {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.product-title {
+    position: absolute;
+    bottom: 0px;
+    background: var(--primary);
+    width: 100%;
+    padding: 5px 0px;
+    color: #f1f1f1;
+    font-size: 15px;
+}
+
+.product-image {
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    height: 110px;
+}
+
+.product-footer {
+    padding: 20px 10px 10px;
+    overflow: auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.input-cart-quantity {
+    padding: 5px;
+    margin: 0;
+    vertical-align: top;
+    border: #CCC 1px solid;
+    border-right: 0px;
+    width: 35px;
+}
+
+.cart-info {
+    text-align: right;
+    display: inline-block;
+    width: 15%;
+    font-size: 0.8em;
+}
+
+.cart-info.title {
+    width: 50%;
+    text-align: left;
+}
+
+.cart-info.price {
+    min-width: 20%;
+    position: relative;
+}
+
+.cart-info.action {
+    width: 5%;
+    float: right;
+    padding: 10px 0px;
+}
+
+.cart-item-container {
+    padding: 5px 10px;
+    border-bottom: #e2e2e2 1px solid;
+}
+
+.cart-status {
+    color: var(--primary);
+    float: right;
+    font-size: 0.8em;
+    padding: 0px 10px;
+    line-height: 25px;
+}
+
+#btnEmpty {
+    margin-top: 6px;
+    cursor: pointer;
+    float: right;
+    background-color: var(--primary);
+    padding: 5px 10px;
+    color: var(--white);
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+.cart-item-container.header {
+    background: var(--primary);
+    border-bottom: none;
+    font-weight: bold;
+    color: #fff;
+    padding: 1rem;
+}
+
+.btn-action {
+    margin: 20px 0px 20px;
+    padding: 10px 30px;
+    font-size: 1em;
+    background: var(--primary);
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.frm-customer-detail {
+    background: var(--primary-lit);
+    padding: 20px;
+}
+
+.frm-heading {
+    margin: 20px 0px 0px;
+    text-align: left;
+    background: var(--primary);
+    padding: 10px;
+    color: var(--white);
+}
+
+.input-field {
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+.input-field input {
+    margin-right: 15px;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.success {
+    margin-top: 20px;
+    background: var(--secondary);
+    padding: 15px;
+    border: none;
+    color: var(--white);
+}
+
+.btn-continue {
+    margin: 20px 0px 20px;
+    padding: 10px 30px;
+    font-size: 1em;
+    background: var(--primary);
+    border: navajowhite;
+    color: var(--white);
+    cursor: pointer;
+}

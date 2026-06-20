@@ -1,0 +1,116 @@
+.dash-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3rem 2rem 5rem 0;
+}
+
+.dash-nav {
+    flex: 1 1 18%;
+    margin-left: 2rem;
+}
+
+.dash-content {
+    flex: 1 1 75%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.dash-content h3 {
+    margin: 2rem 0;
+}
+
+.dash-content a {
+    color: var(--primary);
+}
+
+table,
+thead,
+tr,
+th,
+tbody,
+td {
+    border: 1px solid var(--primary-lit);
+    padding: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--secondary);
+    padding: 1rem;
+}
+
+.dash-content .dash-button {
+    background-color: var(--primary);
+    padding: 5px 30px;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.dash-content .dash-btn {
+    background-color: var(--primary);
+    padding: 10px 30px;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.dash-content .dash-btn-pro {
+    background-color: var(--primary);
+    padding: 10px 10px;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    width: 115px;
+    display: block;
+}
+
+.dash-content input {
+    padding: 10px 20px;
+    margin: 0.6rem;
+    border: 1px solid var(--primary);
+}
+
+.dash-content textarea {
+    padding: 15px;
+    margin: 0.6rem;
+    border: 1px solid var(--primary);
+}
+
+.dash-content form p {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.dash-content #h3 {
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.edit-instructions form textarea {
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.edit-instructions form input {
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.dash-content .h3 {
+    margin-left: 1rem;
+}

@@ -1,0 +1,29 @@
+.dash-nav-ctnr {
+    background-color: var(--secondary);
+    padding: 3rem;
+    margin: 1rem;
+    height: 100vh;
+    color: var(--primary);
+}
+
+.dash-nav-ctnr ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.dash-nav-ctnr ul li {
+    padding: 1rem 0rem;
+}
+
+.dash-nav-ctnr ul li i {
+    color: var(--primary);
+    margin-right: 1rem;
+}
+
+.dash-nav-ctnr ul li a:hover {
+    color: var(--white);
+}
+
+.dash-nav-ctnr ul li:hover {
+    color: var(--white);
+}

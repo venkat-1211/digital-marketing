@@ -1,0 +1,87 @@
+.dash-login-ctnr {
+    width: 100%;
+}
+
+.dash-login-ctnr a {
+    color: var(--primary);
+}
+
+.signup .ctnr a {
+    color: var(--primary);
+}
+
+.dash-login-ctnr {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem auto;
+    padding: 2rem;
+}
+
+.dash-login-ctnr .info {
+    flex: 1 1 500px;
+}
+
+.dash-login-ctnr .info img {
+    width: 500px;
+}
+
+.admin .info img {
+    width: 500px;
+}
+
+.dash-login-ctnr .form form input[type="submit"] {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 0.8rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.dash-login-ctnr .form {
+    flex: 1 1 500px;
+}
+
+.dash-login-ctnr .form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.dash-login-ctnr .form form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.dash-login-ctnr .form h2 {
+    margin-left: 1rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.dash-login-ctnr .form p {
+    margin-left: 1rem;
+}
+
+.dash-login-ctnr .form form input {
+    padding: 0.5rem;
+    margin: 0.8rem;
+    border: 1px solid var(--primary);
+    outline: none;
+    width: 80%;
+}
+
+.dash-login-ctnr .form form input[type="submit"] {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 1rem;
+    cursor: pointer;
+}
